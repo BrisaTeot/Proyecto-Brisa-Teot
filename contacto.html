@@ -95,23 +95,36 @@
         </ul>
     </div>
     <div class="consulta">
-          <form>
-            <h5>Hace tu consulta online</h5>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Nombre</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Juan">
             </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">No compartiremos tu mail con nadie.</div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                    <br>
-                    <textarea name="consulta" id="consulta" cols="relative"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Apellido</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Perez">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Email</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="juan.perez@mail.com">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Dejanos tu mensaje</label>
+                <br>
+                <textarea name="consulta" id="consulta"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="button">Enviar</button>
+            </div>
+          </form>
     </div>
 </div>
 </div>

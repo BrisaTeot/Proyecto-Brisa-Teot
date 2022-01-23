@@ -236,6 +236,17 @@ img {
     color: #ffffff;
 }
 
+// boton
+button {
+    size: 2rem;
+    font-family: $font-body;
+    font-size: 1.5rem;
+    background-color: $color-white;
+    border-radius: 5px;
+    border-color: none;
+    background-color: $color-white;
+}
+
 // responsive
 @media screen and (max-width: 675px) {
     .ham{
