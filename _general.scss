@@ -1,0 +1,35 @@
+// General
+body {
+    font-family: $font-body;
+    font-size: 1.6rem;
+    line-height: 2;
+    padding: 0rem;
+    margin: 0rem;
+    border: 0rem;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+// Navbar
+.menu {
+    margin: 0rem;
+    display: flex;
+    background-color: $color-orange;
+    opacity: calc(50);
+    list-style-type: none;
+    color: $color-white;
+    font-size: 14px;
+    font-family: $color-white;    
+    align-items: center;
+    position: relative;
+    line-height: 4rem;
+    text-align: right;
+}
+label{
+    margin: 0 40px 0 0; 
+    font-size: 2rem;
+    line-height: 5.5rem;
+    text-align: center;
+ }

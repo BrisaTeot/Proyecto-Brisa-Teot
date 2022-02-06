@@ -1,0 +1,21 @@
+// contacto
+.contacto-footer{
+    background-color: $color-orange;
+    margin: 0rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.consulta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3rem;
+}

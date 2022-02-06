@@ -1,0 +1,47 @@
+// responsive
+@media screen and (max-width: 675px) {
+    .ham{
+        background-color:rgb(235, 71, 17);
+        display: block;
+        cursor: pointer;
+        margin: 0rem;
+        padding-right: 1.5rem;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        background-color: rgb(243, 192, 174);
+        display: none;
+        margin-top: 0rem;
+
+     a{
+        display: block;
+        border-bottom: 1px solid black;
+        margin: 0rem;
+     }
+    }
+    #lines:checked + .menu{
+        display: block;
+    }
+    #logo{
+        display: none;
+
+    .contacto-footer{
+        background-color: burlywood;
+        margin: 0rem;
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;   }
+    
+    .consulta {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+}

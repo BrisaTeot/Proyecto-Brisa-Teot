@@ -1,0 +1,17 @@
+// párrafos
+p { font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 1rem;
+    border: 0rem;
+    text-align: center;
+    color: rgb(90, 89, 89);
+    font-family: $font-body;
+
+
+    strong {
+    font-family: 'Sarabun', sans-serif semibold;
+   }
+}
