@@ -1,21 +1,27 @@
 /*MAPS */
-.facebook{
+.facebook--link {
   color: red;
 }
 
-.instagram {
+.instagram--link {
   color: blue;
 }
 
-.twitter {
+.twitter--link {
   color: yellow;
 }
 
+/*MAPS GET*/
+.cuadradosa {
+  background-color: white;
+}
 
 a {
   -webkit-text-decoration: white;
           text-decoration: white;
   color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -32,7 +38,7 @@ a:hover {
   color: black;
 }
 
-a--img {
+a --img {
   position: relative;
   width: 200%;
   height: auto;
@@ -57,6 +63,9 @@ a--img {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .consulta {
@@ -75,26 +84,30 @@ a--img {
 .contenedor {
   width: 95%;
   max-width: 120rem;
-  margin: 0 auto;
 }
 
-.contenedor-footer {
-  padding: 3rem 0;
+.contenedor -footer {
+  padding: 3rem 0 0 0;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contenedor {
   width: 95%;
   max-width: 120rem;
-  margin: 0 auto;
 }
 
-.contenedor-trabajos {
+.contenedor -trabajos {
   margin: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 50rem;
   margin-bottom: 4rem;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
 }
 
@@ -126,7 +139,6 @@ a--img {
 .footer {
   background-color: black;
   color: white;
-  padding: 1rem;
 }
 
 .footer __flex {
@@ -144,12 +156,11 @@ a--img {
 
 .site-footer {
   background-color: #333333;
-  margin: 0;
 }
 
 .copyright {
-  margin: 0;
   color: #ffffff;
+  display: block;
 }
 
 body {
@@ -243,6 +254,41 @@ p strong {
   font-family: 'Sarabun', sans-serif semibold;
 }
 
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Orelega One", cursive;
+  margin: 0px;
+  padding: 0rem;
+  border: 0rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Orelega One", cursive;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Orelega One", cursive;
+  font-size: 2.5rem;
+  margin: 1rem;
+  padding: 0rem;
+  border: 0rem;
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-family: "Orelega One", cursive;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0rem;
+}
+
 @media screen and (max-width: 675px) {
   .ham {
     background-color: #eb4711;
@@ -298,5 +344,33 @@ p strong {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+}
+
+.menu1, .menu2 {
+  margin: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eb4711;
+  opacity: calc(50);
+  list-style-type: none;
+  color: white;
+  font-size: 14px;
+  font-family: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  line-height: 4rem;
+  text-align: right;
+}
+
+.menu2 {
+  font-size: 1.6rem;
+}
+
+.cuadrados {
+  font-size: 5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */
