@@ -1,0 +1,25 @@
+// contenedor
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+
+    -footer {
+    padding: 3rem 0;
+    text-align: center;
+    }
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+
+    -trabajos {
+        margin: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        display: grid;  
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr)
+    }
+}
