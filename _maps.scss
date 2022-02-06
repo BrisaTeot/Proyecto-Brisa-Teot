@@ -1,8 +1,16 @@
 /*MAPS */
-$mapRedes:(facebook:red,instagram:blue,twitter:yellow);
+$mapRedes:(facebook:rgb(241, 94, 94),instagram:rgb(236, 160, 89),twitter:rgb(240, 240, 118));
 
 @each $red,$color in $mapRedes {
     .#{$red}--link {
         color: $color;
     }    
+}
+
+/*MAPS GET*/
+$estilo:(color:rgb(241, 94, 94,tamFuente 30px,);
+
+.pepeLePu {background-color: map-get($estilo, color);
+    font-size: map-get($estilo, tamFuente);
+    height: 150px;width: 150px;
 }

@@ -1,22 +1,21 @@
 /*MAPS */
-.facebook--link {
+.facebook{
   color: red;
 }
 
-.instagram--link {
+.instagram {
   color: blue;
 }
 
-.twitter--link {
+.twitter {
   color: yellow;
 }
+
 
 a {
   -webkit-text-decoration: white;
           text-decoration: white;
   color: white;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -33,7 +32,7 @@ a:hover {
   color: black;
 }
 
-a --img {
+a--img {
   position: relative;
   width: 200%;
   height: auto;
@@ -79,7 +78,7 @@ a --img {
   margin: 0 auto;
 }
 
-.contenedor -footer {
+.contenedor-footer {
   padding: 3rem 0;
   text-align: center;
 }
@@ -90,7 +89,7 @@ a --img {
   margin: 0 auto;
 }
 
-.contenedor -trabajos {
+.contenedor-trabajos {
   margin: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 4rem;

@@ -1,0 +1,18 @@
+.menu1 {
+    margin: 0rem;
+    display: flex;
+    background-color: $color-orange;
+    opacity: calc(50);
+    list-style-type: none;
+    color: $color-white;
+    font-size: 14px;
+    font-family: $color-white;    
+    align-items: center;
+    position: relative;
+    line-height: 4rem;
+    text-align: right;
+}
+.menu2 {
+    @extend .menu1; 
+    font-size: 1.6rem;
+}
