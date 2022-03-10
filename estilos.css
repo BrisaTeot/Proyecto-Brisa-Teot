@@ -11,33 +11,9 @@
   color: yellow;
 }
 
-a {
-  -webkit-text-decoration: white;
-          text-decoration: white;
-  color: white;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding: 1rem;
-  font-family: "Sarabun", sans-serif;
-}
-
-a:hover {
-  color: black;
-}
-
-a --img {
-  position: relative;
-  width: 200%;
-  height: auto;
-  margin-bottom: 1rem;
+/*MAPS GET*/
+.cuadradosa {
+  background-color: white;
 }
 
 .contacto-footer {
@@ -76,27 +52,44 @@ a --img {
 .contenedor {
   width: 95%;
   max-width: 120rem;
-  margin: 0 auto;
 }
 
-.contenedor -footer {
-  padding: 3rem 0;
+.contenedorS-footer {
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contenedor {
   width: 95%;
   max-width: 120rem;
-  margin: 0 auto;
 }
 
-.contenedor -trabajos {
+.contenedor-trabajos {
   margin: 1.5rem;
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, 3fr);
       grid-template-rows: repeat(2, 1fr);
+}
+
+.doscolum {
+  display: inline-block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+img {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-top: 2rem;
 }
 
 .cuadrados {
@@ -127,7 +120,6 @@ a --img {
 .footer {
   background-color: black;
   color: white;
-  padding: 1rem;
 }
 
 .footer __flex {
@@ -145,17 +137,17 @@ a --img {
 
 .site-footer {
   background-color: #333333;
-  margin: 0;
 }
 
 .copyright {
-  margin: 0;
   color: #ffffff;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 body {
   font-family: "Sarabun", sans-serif;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   line-height: 2;
   padding: 0rem;
   margin: 0rem;
@@ -177,7 +169,7 @@ html {
   opacity: calc(50);
   list-style-type: none;
   color: white;
-  font-size: 14px;
+  font-size: 2rem;
   font-family: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -194,20 +186,86 @@ label {
   text-align: center;
 }
 
-.doscolum {
-  display: inline-block;
+a {
+  -webkit-text-decoration: white;
+          text-decoration: white;
+  color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 1.5rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1rem;
+  font-family: "Sarabun", sans-serif;
+  font-size: 2rem;
 }
 
-img {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 1rem;
+a:hover {
+  color: black;
+}
+
+a --img {
   position: relative;
+  width: 200%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Orelega One", cursive;
+  margin: 0px;
+  padding: 0rem;
+  border: 0rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Orelega One", cursive;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Orelega One", cursive;
+  font-size: 2.5rem;
+  margin: 1rem;
+  padding: 0rem;
+  border: 0rem;
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-family: "Orelega One", cursive;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0rem;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  line-height: 2;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 1rem;
+  border: 0rem;
+  text-align: center;
+  color: #5a5959;
+  font-family: "Sarabun", sans-serif;
+}
+
+p strong {
+  font-family: 'Sarabun', sans-serif semibold;
 }
 
 .ham {
@@ -227,24 +285,7 @@ img {
   padding-left: 1rem;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
-  line-height: 2;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  margin: 1rem;
-  border: 0rem;
-  text-align: center;
-  color: #5a5959;
-  font-family: "Sarabun", sans-serif;
-}
-
-p strong {
-  font-family: 'Sarabun', sans-serif semibold;
-}
-
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 768px) {
   .ham {
     background-color: #eb4711;
     display: block;
@@ -299,5 +340,33 @@ p strong {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+}
+
+.menu1, .menu2 {
+  margin: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eb4711;
+  opacity: calc(50);
+  list-style-type: none;
+  color: white;
+  font-size: 14px;
+  font-family: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  line-height: 4rem;
+  text-align: right;
+}
+
+.menu2 {
+  font-size: 1.6rem;
+}
+
+.cuadrados {
+  font-size: 5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */
