@@ -1,0 +1,8 @@
+@mixin body1 ($size,$align) {
+    font-size: $size;
+    text-align: $align;
+}
+
+.cuadrados {
+    @include body1(5rem,center )
+}

@@ -4,6 +4,10 @@
     max-width: 120rem;
 
 -footer {
+<<<<<<< HEAD
+=======
+    padding: 3rem 0 0 0;
+>>>>>>> 04d5ab3d49605ea05fc68931692fa8b03a9bdecf
     text-align: center;
     align-items: center;
     }
@@ -11,6 +15,7 @@
 .contenedor {
     width: 95%;
     max-width: 120rem;
+<<<<<<< HEAD
             -trabajos {
                 margin: 1rem;
                 margin-top: 1rem;
@@ -20,3 +25,14 @@
                 grid-template-rows: repeat(2, 1fr)
                 }
 }   
+=======
+    -trabajos {
+        margin: 1.5rem;
+        margin-top: 50rem;
+        margin-bottom: 4rem;
+        display: grid;  
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr)
+    }
+}
+>>>>>>> 04d5ab3d49605ea05fc68931692fa8b03a9bdecf

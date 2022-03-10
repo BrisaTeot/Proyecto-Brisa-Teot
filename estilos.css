@@ -122,7 +122,7 @@ img {
   color: white;
 }
 
-.footer __flex {
+.footer__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
